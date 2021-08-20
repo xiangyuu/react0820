@@ -25,6 +25,7 @@ const App = () => {
           <p>已登入</p>
           <div>hello~{user.username}</div>
           <div>Hello</div>
+          <div>這是一條新的線</div>
           <div>Hello2</div>
           <div>Hello3</div>
         </div>
