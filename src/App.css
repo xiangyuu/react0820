@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+#whiteContainer{
+  border: solid 1px;
+  width: 300px;
+  height: 500px;
+  margin: 100px auto;
+}
+#blackContainer{
+  border: solid 1px;
+  width: 300px;
+  height: 500px;
+  margin: 100px auto;
+  background-color: aqua;
+
+}
+
+#begin{
+  width: 40px;
+  border: solid 1px;
+  background-color: cornflowerblue;
+  border-radius: 3px;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+
+}
+.usernameError{
+  display: block;
+  color: red;
+  font-size: 8px;
+}
+.NotUsernameError{
+  display: none;
+}
+.passwordError{
+  display: block;
+  color: red;
+  font-size: 8px;
+}
+.NotPasswordError{
+  display: none;
+}
+.btn{
+  margin-top: 5px;
+}
+.showForm{
+  position: absolute;
+  width: 300px;
+  margin: 3px;
+  z-index: 9;
+  display: block;
+  opacity: 1.0;
+  background-color: palegoldenrod;
+}
+.hideForm{
+  display: none;
+}
