@@ -24,6 +24,7 @@ const App = () => {
         <div id='login' className={isOut ? 'hide' : 'show'}>
           <p>已登入</p>
           <div>hello~{user.username}</div>
+          <div>Hello</div>
         </div>
         {/*<form  className={isShow ? 'showForm' : 'hideForm'}*/}
         {/*      onSubmit={(event) => {*/}
